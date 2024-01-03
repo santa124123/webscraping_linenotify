@@ -11,7 +11,7 @@ def main(run):
     CHF = str(inputs).split(">")[1].split("<")[0]
 
     line_url = 'https://notify-api.line.me/api/notify'
-    token = 'cT9Neprwc3j7g0qO5SoHDjaDbG2A70GdaPqyIekrJbc'
+    token = '' #line notify tokens
     headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 
     if float(CHF) != 40.881:
